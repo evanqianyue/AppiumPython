@@ -166,8 +166,8 @@ def get_web_view():
 
 def get_toast():
     driver.find_element_by_id("cn.com.open.mooc:id/account_edit").send_keys("544649790@qq.com")
-    tost_element = ("xpath", '//*[contains(@text,"请输入密码")]')
-    print(WebDriverWait(driver, 10, 0.5).until(EC.presence_of_element_located(tost_element)))
+    toast_element = ("xpath", '//*[contains(@text,"请输入密码")]')
+    print(WebDriverWait(driver, 10, 0.5).until(EC.presence_of_element_located(toast_element)))
 
 
 driver = get_driver()

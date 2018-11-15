@@ -59,12 +59,12 @@ class LoginPage(object):
         """
         return self.get_by_local.get_element('register')
 
-    def get_tost_element(self, message):
+    def get_toast_element(self, message):
         """
 
         :param message: 验证信息
-        :return: tost元素
+        :return: toast元素
         """
-        tost_element = ("xpath", "//*[contains(@text," + message + ")]")
-        print(WebDriverWait(self.driver, 10, 0.5).until(EC.presence_of_element_located(tost_element)))
-        return WebDriverWait(self.driver, 10, 0.5).until(EC.presence_of_element_located(tost_element))
+        toast_element = ("xpath", "//*[contains(@text," + message + ")]")
+        print(WebDriverWait(self.driver, 10, 0.5).until(EC.presence_of_element_located(toast_element)))
+        return WebDriverWait(self.driver, 10, 0.5).until(EC.presence_of_element_located(toast_element))

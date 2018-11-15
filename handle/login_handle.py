@@ -54,13 +54,13 @@ class LoginHandle:
         """
         self.login_page.get_forget_password_element().click()
 
-    def get_fail_tost(self, message):
+    def get_fail_toast(self, message):
         """
 
-        :return:获取tost，根据返回信息进行反数据
+        :return:获取toast，根据返回信息进行反数据
         """
-        tost_element = self.login_page.get_tost_element(message)
-        if tost_element:
+        toast_element = self.login_page.get_toast_element(message)
+        if toast_element:
             return True
         else:
             return False

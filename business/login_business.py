@@ -25,12 +25,12 @@ class LoginBusiness(object):
         self.login_handle.send_username("544649790!@qq.com")
         self.login_handle.send_password("qianyue1003!")
         self.login_handle.click_login()
-        user_flag = self.login_handle.get_fail_tost("账号未注册")
+        user_flag = self.login_handle.get_fail_toast("账号未注册")
         return user_flag
 
     def login_password_fail(self):
         self.login_handle.send_username("544649790@qq.com")
         self.login_handle.send_password("qianyue1003!")
         self.login_handle.click_login()
-        user_flag = self.login_handle.get_fail_tost("登录密码错误")
+        user_flag = self.login_handle.get_fail_toast("登录密码错误")
         return user_flag
