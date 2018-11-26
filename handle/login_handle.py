@@ -28,7 +28,7 @@ class LoginHandle:
     def send_password(self, password):
         """
 
-        :param username: 用户名
+        :param password: 用户名
         :return: 无
         """
         self.login_page.get_password_element().send_keys(password)

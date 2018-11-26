@@ -26,14 +26,20 @@ class BaseDriver(object):
         capabilities = {
             "platformName": "Android",
             # "automationName": "UiAutomator2",
+            # 'platformVersion': deviceVersion,
             "deviceName": device,
             "app": "D:\\appsfortest\\mukewang.apk",
+            # "dontStopAppOnReset": "True",  # 不关闭应用???没试过
+            # "autoGrantPermissions": "True",  # 自动获取权限???没试过
+            # "udid": "70643e56c1b0f3c3132c44c87e433a48b5531ee6",
+            # "appPackage": "cn.com.open.mooc",   # 很奇怪，模擬器不行
             # "appWaitActivity": "cn.com.open.mooc.user.login.MCLoginActivity",
+            # 'appActivity': appPackage + ".PageSplash",
             # "recreateChromeDriverSessions": "true",
-            "noReset": "True"
+            "noReset": "True"  # 不用每次重置
         }
 
-        driver = webdriver.Remote("http://127.0.0.1:"+str(port)+"/wd/hub", capabilities)
+        driver = webdriver.Remote("http://127.0.0.1:" + str(port) + "/wd/hub", capabilities)
         time.sleep(10)
         return driver
 

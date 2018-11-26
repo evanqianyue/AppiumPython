@@ -12,13 +12,14 @@
 import yaml
 
 
-class WriteUserCommand():
+class WriteUserCommand(object):
     def read_data(self):
         """
         获得yaml数据
         :return: 数据
         """
-        with open('../config/userconfig.yaml', 'r', encoding="utf-8") as f:
+        with open('./config/userconfig.yaml', 'r') as f:
+        # with open('../config/userconfig.yaml', 'r', encoding="utf-8") as f:   # Python3写法
             data = yaml.load(f)
         return data
 
@@ -34,7 +35,8 @@ class WriteUserCommand():
         """
 
         data = self.join_data(i, port, bp, device)
-        with open('../config/userconfig.yaml', 'a', encoding="utf-8") as f:
+        with open('./config/userconfig.yaml', 'a') as f:
+        # with open('../config/userconfig.yaml', 'a', encoding="utf-8") as f:
             yaml.dump(data, f)
 
     def join_data(self, i, port, bp, device):
@@ -49,7 +51,8 @@ class WriteUserCommand():
         return data
 
     def clear_data(self):
-        with open('../config/userconfig.yaml', 'w', encoding="utf-8") as f:
+        # with open('../config/userconfig.yaml', 'w', encoding="utf-8") as f:
+        with open('./config/userconfig.yaml', 'w') as f:
             f.truncate()
 
     def get_file_lines(self):

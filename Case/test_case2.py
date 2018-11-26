@@ -17,8 +17,6 @@ from utils.server import Server
 from business.login_business import LoginBusiness
 from utils.write_user_command import WriteUserCommand
 import time
-import random
-import sys
 
 
 class ParameTestCase(unittest.TestCase):
@@ -38,25 +36,30 @@ class CaseTest(ParameTestCase):
     def setUp(self):
         print("this is setup\n")
 
-    def test_01(self):
+    def test_001(self):
         self.login_business.login_password_fail()
+        # flag1 = True
+        # flag2 = False
+        # print("test case01 里面的参数", params)
+        # print("this is case01\n")
+        # self.assertEqual(1, 2, "数据错误")
+        # self.assertEqual([12, 13], [12, 13], "数据错误")
+        # self.assertNotEqual([12, 13], [12, 14], "数据错误")
+        # self.assertTrue(flag1, "it's fasle")
+        # self.assertTrue(flag2, "it's false")
 
-    def test_02(self):
+    def test_002(self):
         self.login_business.login_user_fail()
+        # self.assertTrue(True, "it's fasle")
+        # print("test case02 里面的参数", params)
+        # print("this is case02\n")
 
-    def test_03(self):
+    def test_003(self):
         # self.login_business.login_password_fail()
         self.assertTrue(False, "it's fasle")
 
     def tearDown(self):
         print("this is tearDown\n")
-        # 这个是Python2的用法，Python3无效
-        if sys.exc_info()[0]:
-            seed = int(random.random() * 1000)
-            now = time.strftime('%Y-%m-%d %H_%M_%S')
-            screenshotName = "./screenshots/" + now + "test_03"+"Seed" + str(seed) + ".png"
-            print("screenshotName:", screenshotName.split('./screenshots/')[1])
-            self.login_business.login_handle.login_page.driver.save_screenshot(screenshotName)
 
     @classmethod
     def tearDownClass(cls):
@@ -101,6 +104,7 @@ if __name__ == '__main__':
     threads = []
 
     for i in range(get_count()):
+
         # 多进程
         t = multiprocessing.Process(target=get_suite, args=(i,))
 
@@ -111,4 +115,7 @@ if __name__ == '__main__':
 
     for j in threads:
         j.start()
-        # time.sleep(3)
+
+    for j in threads:
+        j.join()
+        #time.sleep(3)

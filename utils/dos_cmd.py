@@ -32,4 +32,4 @@ if __name__ == '__main__':
     dos = DosCmd()
     # print(os.popen("netstat -ano|findstr 8080").readlines())
     print(dos.execute_cmd_result("adb devices"))
-    dos.execute_cmd("appium -p 4701 -bp 5700 -U 127.0.0.1:21513 --no-reset --session-override")
+    # dos.execute_cmd("appium -p 4701 -bp 5700 -U 127.0.0.1:21513 --no-reset --session-override")

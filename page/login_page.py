@@ -21,6 +21,7 @@ class LoginPage(object):
     def __init__(self, i):
         base_driver = BaseDriver()
         # self.driver = base_driver.get_driver()
+        print("this is i :", i)
         self.driver = base_driver.android_driver(i)
         self.get_by_local = GetByLocal(self.driver)
 
@@ -29,35 +30,35 @@ class LoginPage(object):
 
         :return: 用户名输入框元素
         """
-        return self.get_by_local.get_element('username')
+        return self.get_by_local.get_element('login_element', 'username')
 
     def get_password_element(self):
         """
 
         :return: 密码输框元素
         """
-        return self.get_by_local.get_element('password')
+        return self.get_by_local.get_element('login_element', 'password')
 
     def get_login_button_element(self):
         """
 
         :return: 登录按钮元素
         """
-        return self.get_by_local.get_element('login_button')
+        return self.get_by_local.get_element('login_element', 'login_button')
 
     def get_forget_password_element(self):
         """
 
         :return: 忘记密码元素
         """
-        return self.get_by_local.get_element('forget_password')
+        return self.get_by_local.get_element('login_element', 'forget_password')
 
     def get_register_element(self):
         """
 
         :return: 忘记密码元素
         """
-        return self.get_by_local.get_element('register')
+        return self.get_by_local.get_element('login_element', 'register')
 
     def get_toast_element(self, message):
         """

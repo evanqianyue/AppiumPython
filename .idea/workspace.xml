@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a508d4f6-d54e-4cee-ac32-8fc5542075e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Case/start_appium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/start_appium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case/ParametrizedTestCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case/nameqyt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case/qy_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case/qy_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case/runtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case/test_case2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case/备份test_case哦.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_all_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/get_suite_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Case/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/test_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/login_business.py" beforeDir="false" afterPath="$PROJECT_DIR$/business/login_business.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case/test_case1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case/test_supper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/mysupper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case/test_threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/mythreading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/userconfig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/userconfig.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handle/login_handle.py" beforeDir="false" afterPath="$PROJECT_DIR$/handle/login_handle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testReport0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testReport1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/dos_cmd.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/dos_cmd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/get_by_local.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/get_by_local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/read_ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/read_ini.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/write_user_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/write_user_command.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,72 +35,86 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AppiumPython$Unittests_in_test_case_py.coverage" NAME="Unittests in test_case.py Coverage Results" MODIFIED="1542117938497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
+    <SUITE FILE_PATH="coverage/AppiumPython$runalltests.coverage" NAME="runalltests Coverage Results" MODIFIED="1542687220621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AppiumPython$server.coverage" NAME="server Coverage Results" MODIFIED="1542092934077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/AppiumPython$Unittests_for_test_case_CaseTest.coverage" NAME="Unittests for test_case.CaseTest Coverage Results" MODIFIED="1542095859765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
-    <SUITE FILE_PATH="coverage/AppiumPython$start_appium.coverage" NAME="start_appium Coverage Results" MODIFIED="1541989425993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
-    <SUITE FILE_PATH="coverage/AppiumPython$test_case.coverage" NAME="test_case Coverage Results" MODIFIED="1542251027524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
-    <SUITE FILE_PATH="coverage/AppiumPython$dos_cmd.coverage" NAME="dos_cmd Coverage Results" MODIFIED="1542088518891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/AppiumPython$write_user_command.coverage" NAME="write_user_command Coverage Results" MODIFIED="1542091298351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/AppiumPython$Unittests_for_test_case1_CaseTest.coverage" NAME="Unittests for test_case1.CaseTest Coverage Results" MODIFIED="1542095195710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
-    <SUITE FILE_PATH="coverage/AppiumPython$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1541997829166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
-    <SUITE FILE_PATH="coverage/AppiumPython$port.coverage" NAME="port Coverage Results" MODIFIED="1542078715498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/AppiumPython$test_case1.coverage" NAME="test_case1 Coverage Results" MODIFIED="1542117908169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
-    <SUITE FILE_PATH="coverage/AppiumPython$base_driver.coverage" NAME="base_driver Coverage Results" MODIFIED="1542072609095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/AppiumPython$dos_cmd.coverage" NAME="dos_cmd Coverage Results" MODIFIED="1542949656647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/AppiumPython$test_case1.coverage" NAME="test_case1 Coverage Results" MODIFIED="1542676601269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
+    <SUITE FILE_PATH="coverage/AppiumPython$run_all_tests.coverage" NAME="run_all_tests Coverage Results" MODIFIED="1542726176473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AppiumPython$Unittests_in_test_case1_py.coverage" NAME="Unittests in test_case1.py Coverage Results" MODIFIED="1542095085248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
-    <SUITE FILE_PATH="coverage/AppiumPython$Unittests_for_test_case_CaseTest_test_01.coverage" NAME="Unittests for test_case.CaseTest.test_01 Coverage Results" MODIFIED="1541994008760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
-    <SUITE FILE_PATH="coverage/AppiumPython$doc_cmd.coverage" NAME="doc_cmd Coverage Results" MODIFIED="1542076545240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/AppiumPython$read_ini.coverage" NAME="read_ini Coverage Results" MODIFIED="1541986510902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/AppiumPython$runtest.coverage" NAME="runtest Coverage Results" MODIFIED="1542683848025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AppiumPython$get_suite_list.coverage" NAME="get_suite_list Coverage Results" MODIFIED="1542726883339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/AppiumPython$test_supper.coverage" NAME="test_supper Coverage Results" MODIFIED="1542096847989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
     <SUITE FILE_PATH="coverage/AppiumPython$Unittests_for_test_case_CaseTest_test_02.coverage" NAME="Unittests for test_case.CaseTest.test_02 Coverage Results" MODIFIED="1541993438155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
     <SUITE FILE_PATH="coverage/AppiumPython$test_threading.coverage" NAME="test_threading Coverage Results" MODIFIED="1542001674804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
+    <SUITE FILE_PATH="coverage/AppiumPython$6677.coverage" NAME="6677 Coverage Results" MODIFIED="1542329427557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
+    <SUITE FILE_PATH="coverage/AppiumPython$start_appium.coverage" NAME="start_appium Coverage Results" MODIFIED="1541989425993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
+    <SUITE FILE_PATH="coverage/AppiumPython$test_case.coverage" NAME="test_case Coverage Results" MODIFIED="1542682345031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
+    <SUITE FILE_PATH="coverage/AppiumPython$write_user_command.coverage" NAME="write_user_command Coverage Results" MODIFIED="1542091298351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/AppiumPython$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1541997829166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
+    <SUITE FILE_PATH="coverage/AppiumPython$port.coverage" NAME="port Coverage Results" MODIFIED="1542078715498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/AppiumPython$nameqyt.coverage" NAME="nameqyt Coverage Results" MODIFIED="1542722146735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
+    <SUITE FILE_PATH="coverage/AppiumPython$base_driver.coverage" NAME="base_driver Coverage Results" MODIFIED="1542072609095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/AppiumPython$qy_2.coverage" NAME="qy_2 Coverage Results" MODIFIED="1542683598908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
+    <SUITE FILE_PATH="coverage/AppiumPython$Unittests_for_test_case_CaseTest_test_01.coverage" NAME="Unittests for test_case.CaseTest.test_01 Coverage Results" MODIFIED="1541994008760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
+    <SUITE FILE_PATH="coverage/AppiumPython$doc_cmd.coverage" NAME="doc_cmd Coverage Results" MODIFIED="1542076545240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/AppiumPython$read_ini.coverage" NAME="read_ini Coverage Results" MODIFIED="1542712040299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/AppiumPython$runtest__1_.coverage" NAME="runtest (1) Coverage Results" MODIFIED="1542683879527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-720730663">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="53" />
-          <entry key="ini" value="6" />
+          <entry key="html" value="64" />
+          <entry key="ini" value="9" />
+          <entry key="java" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="106" />
+          <entry key="py" value="213" />
           <entry key="txt" value="1" />
-          <entry key="yaml" value="7" />
+          <entry key="yaml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="53" />
+          <entry key="HTML" value="64" />
+          <entry key="JAVA" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="106" />
-          <entry key="YAML" value="7" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="213" />
+          <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
+          <entry key="dummy" value="57" />
           <entry key="html" value="1" />
-          <entry key="ini" value="219" />
-          <entry key="py" value="12258" />
-          <entry key="yaml" value="122" />
+          <entry key="ini" value="229" />
+          <entry key="py" value="15888" />
+          <entry key="yaml" value="124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="220" />
-          <entry key="Python" value="12258" />
-          <entry key="YAML" value="122" />
+          <entry key="PLAIN_TEXT" value="286" />
+          <entry key="Python" value="15888" />
+          <entry key="YAML" value="124" />
         </counts>
       </usages-collector>
     </session>
@@ -91,7 +123,44 @@
     <favorites_list name="AppiumPython" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Case/test_case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1188">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/dos_cmd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/write_user_command.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,6 +179,20 @@
       <find>toast</find>
       <find>FooChild</find>
       <find>tost</find>
+      <find>myth</find>
+      <find>mythread</find>
+      <find>user_info_0</find>
+      <find>sendfile</find>
+      <find>log</find>
+      <find>this is screenshot!</find>
+      <find>by</find>
+      <find>this is tearDown</find>
+      <find>this is class tearDown</find>
+      <find>sys.exc_info()[0]</find>
+      <find>local</find>
+      <find>this is i</find>
+      <find>self.driver.find_element_by_id(local_by)</find>
+      <find>CaseTestc</find>
     </findStrings>
     <replaceStrings>
       <replace>create_command_list</replace>
@@ -121,27 +204,41 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/utils/read_ini.py" />
-        <option value="$PROJECT_DIR$/utils/get_by_local.py" />
-        <option value="$PROJECT_DIR$/config/LocalElement.ini" />
         <option value="$PROJECT_DIR$/Case/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/Case/test_threading.py" />
         <option value="$PROJECT_DIR$/Case/ttt.py" />
         <option value="$PROJECT_DIR$/bussiness/login_bussiness.py" />
         <option value="$PROJECT_DIR$/utils/doc_cmd.py" />
         <option value="$PROJECT_DIR$/utils/port.py" />
-        <option value="$PROJECT_DIR$/business/login_business.py" />
-        <option value="$PROJECT_DIR$/utils/dos_cmd.py" />
         <option value="$PROJECT_DIR$/Case/test_supper.py" />
-        <option value="$PROJECT_DIR$/base/base_driver.py" />
-        <option value="$PROJECT_DIR$/config/userconfig.yaml" />
-        <option value="$PROJECT_DIR$/utils/write_user_command.py" />
-        <option value="$PROJECT_DIR$/utils/server.py" />
-        <option value="$PROJECT_DIR$/Case/test_case1.py" />
-        <option value="$PROJECT_DIR$/page/login_page.py" />
         <option value="$PROJECT_DIR$/Case/start_appium.py" />
+        <option value="$PROJECT_DIR$/Case/6677.py" />
+        <option value="$PROJECT_DIR$/Case/mythreading.py" />
+        <option value="$PROJECT_DIR$/runtest.py" />
+        <option value="$PROJECT_DIR$/Case/qy_1.py" />
+        <option value="$PROJECT_DIR$/Case/qy_2.py" />
+        <option value="$PROJECT_DIR$/Case/runtest.py" />
+        <option value="$PROJECT_DIR$/runalltests.py" />
+        <option value="$PROJECT_DIR$/Case/ParametrizedTestCase.py" />
+        <option value="$PROJECT_DIR$/config/userconfig.yaml" />
         <option value="$PROJECT_DIR$/handle/login_handle.py" />
+        <option value="$PROJECT_DIR$/page/login_page.py" />
+        <option value="$PROJECT_DIR$/utils/read_ini.py" />
+        <option value="$PROJECT_DIR$/base/base_driver.py" />
+        <option value="$PROJECT_DIR$/page/login_page2.py" />
+        <option value="$PROJECT_DIR$/handle/login_handle2.py" />
+        <option value="$PROJECT_DIR$/business/login_business2.py" />
+        <option value="$PROJECT_DIR$/business/login_business.py" />
+        <option value="$PROJECT_DIR$/Case/test_case1.py" />
+        <option value="$PROJECT_DIR$/utils/get_by_local.py" />
+        <option value="$PROJECT_DIR$/utils/server.py" />
+        <option value="$PROJECT_DIR$/Case/nameqyt.py" />
         <option value="$PROJECT_DIR$/Case/test_case.py" />
+        <option value="$PROJECT_DIR$/config/LocalElement.ini" />
+        <option value="$PROJECT_DIR$/utils/get_suite_list.py" />
+        <option value="$PROJECT_DIR$/utils/write_user_command.py" />
+        <option value="$PROJECT_DIR$/run_all_tests.py" />
+        <option value="$PROJECT_DIR$/utils/dos_cmd.py" />
       </list>
     </option>
   </component>
@@ -151,11 +248,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="168" />
-    <option name="y" value="-30" />
-    <option name="width" value="1470" />
-    <option name="height" value="939" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="111" />
+    <option name="y" value="198" />
+    <option name="width" value="1389" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -189,37 +286,7 @@
             <path>
               <item name="AppiumPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="AppiumPython" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppiumPython" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppiumPython" type="462c0819:PsiDirectoryNode" />
               <item name="Case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppiumPython" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppiumPython" type="462c0819:PsiDirectoryNode" />
-              <item name="handle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppiumPython" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppiumPython" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AppiumPython" type="b2602c69:ProjectViewProjectNode" />
@@ -237,16 +304,22 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542251139974" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542967085074" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\QianYue\IdeaProjects\AppiumPython\page" />
+      <recent name="C:\Users\QianYue\IdeaProjects\AppiumPython\handle" />
+      <recent name="C:\Users\QianYue\IdeaProjects\AppiumPython\business" />
+      <recent name="C:\Users\QianYue\IdeaProjects\AppiumPython\Case" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\QianYue\IdeaProjects\AppiumPython\Case" />
     </key>
@@ -263,8 +336,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_case">
-    <configuration name="test_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dos_cmd">
+    <configuration name="dos_cmd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AppiumPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/dos_cmd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_suite_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AppiumPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/get_suite_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nameqyt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AppiumPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,7 +394,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Case/test_case.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Case/nameqyt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,7 +403,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_case1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="read_ini" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AppiumPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,12 +411,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Case/test_case1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/read_ini.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,7 +425,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_supper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run_all_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AppiumPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,64 +433,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Case/test_supper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_all_tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_case.CaseTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="AppiumPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case.CaseTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="AppiumPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Case/test_case.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in test_case.py" />
-      <item itemvalue="Python tests.Unittests for test_case.CaseTest" />
-      <item itemvalue="Python.test_case" />
-      <item itemvalue="Python.test_supper" />
-      <item itemvalue="Python.test_case1" />
+      <item itemvalue="Python.nameqyt" />
+      <item itemvalue="Python.run_all_tests" />
+      <item itemvalue="Python.get_suite_list" />
+      <item itemvalue="Python.read_ini" />
+      <item itemvalue="Python.dos_cmd" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_case" />
-        <item itemvalue="Python tests.Unittests in test_case.py" />
-        <item itemvalue="Python.test_case1" />
-        <item itemvalue="Python.test_supper" />
-        <item itemvalue="Python tests.Unittests for test_case.CaseTest" />
+        <item itemvalue="Python.dos_cmd" />
+        <item itemvalue="Python.get_suite_list" />
+        <item itemvalue="Python.run_all_tests" />
+        <item itemvalue="Python.nameqyt" />
+        <item itemvalue="Python.read_ini" />
       </list>
     </recent_temporary>
   </component>
@@ -392,6 +479,14 @@
       <workItem from="1542068258396" duration="30575000" />
       <workItem from="1542105524467" duration="13439000" />
       <workItem from="1542249455117" duration="1721000" />
+      <workItem from="1542329120878" duration="2018000" />
+      <workItem from="1542371033465" duration="1088000" />
+      <workItem from="1542676344732" duration="47738000" />
+      <workItem from="1542761341200" duration="5606000" />
+      <workItem from="1542808299829" duration="26000" />
+      <workItem from="1542895206763" duration="613000" />
+      <workItem from="1542937896077" duration="448000" />
+      <workItem from="1542945139743" duration="1899000" />
     </task>
     <servers />
   </component>
@@ -428,12 +523,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95824000" />
+    <option name="totallyTimeSpent" value="155260000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="777" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="777" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49620253" visible="true" weight="0.21988682" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49620253" visible="true" weight="0.19159256" />
       <window_info id="Structure" order="1" sideWeight="0.5037975" side_tool="true" weight="0.21341956" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -442,14 +537,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.5015528" side_tool="true" weight="0.17704123" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.40527952" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49717057" weight="0.44875777" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49636218" visible="true" weight="0.371118" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50282943" side_tool="true" weight="0.3726708" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50363785" side_tool="true" weight="0.38664597" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -470,119 +565,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/appium/webdriver/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/selenium/webdriver/support/wait.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="26" column="78" lean-forward="true" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/unittest/test/test_setups.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Case/HTMLTestRunner.py" />
-    <entry file="file://$PROJECT_DIR$/report/report.txt" />
-    <entry file="file://$PROJECT_DIR$/report/result.html" />
-    <entry file="file://$PROJECT_DIR$/report/result2.html" />
-    <entry file="file://$USER_HOME$/.IntelliJIdea2018.2/system/python_stubs/-1774969215/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="365" column="49" selection-start-line="365" selection-start-column="41" selection-end-line="365" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pycharm/teamcity/unittestpy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pycharm/_jb_unittest_runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/unittest/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="451" selection-start-line="451" selection-end-line="451" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Case/ttt.py" />
-    <entry file="file://$PROJECT_DIR$/report/result0.html" />
-    <entry file="file://$PROJECT_DIR$/report/result1.html" />
-    <entry file="file://$PROJECT_DIR$/report/testReport1.html" />
-    <entry file="file://$PROJECT_DIR$/base/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Case/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Case/test_case1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Case/test_supper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Case/test_threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/LocalElement.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/userconfig.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/page/__init__.py">
@@ -591,62 +574,10 @@
     <entry file="file://$PROJECT_DIR$/utils/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/get_by_local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/port.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="40" column="1" selection-start-line="40" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/read_ini.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
-          <folding>
-            <element signature="e#160#186#0" expanded="true" />
-            <marker date="1542111536513" expanded="true" signature="333:514" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/write_user_command.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/dos_cmd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <marker date="1542092829310" expanded="true" signature="193:198" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-          <folding>
-            <element signature="e#160#201#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,57 +588,237 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handle/login_handle.py">
+    <entry file="file://$PROJECT_DIR$/Case/6677.py" />
+    <entry file="file://$PROJECT_DIR$/report/testReport1.html" />
+    <entry file="file://$PROJECT_DIR$/Case/mysupper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#159#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/report/testReport0.html" />
     <entry file="file://$PROJECT_DIR$/Case/start_appium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="712">
           <caret line="168" column="43" lean-forward="true" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/testReport0.html">
+    <entry file="file://$PROJECT_DIR$/Case/mythreading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="162">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="315" column="6" selection-start-line="315" selection-start-column="6" selection-end-line="315" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/testReport02018-11-20 11_18_21.html" />
+    <entry file="file://$PROJECT_DIR$/report/testReport02018-11-20 11_27_24.html" />
+    <entry file="file://$PROJECT_DIR$/report/testReport02018-11-20 11_37_12.html" />
+    <entry file="file://$PROJECT_DIR$/report/testReport-02018-11-20 11_40_23.html" />
+    <entry file="file://$PROJECT_DIR$/Case/备份test_case哦.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2018.2/system/python_stubs/-1774969215/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="2282" column="8" selection-start-line="2282" selection-start-column="8" selection-end-line="2282" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="270" column="53" selection-start-line="270" selection-start-column="53" selection-end-line="270" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/testReport_deviceNum-1-2018-11-20 14_41_05.html" />
+    <entry file="file://$PROJECT_DIR$/report/testReport_deviceNum-0-2018-11-20 14_41_05.html" />
+    <entry file="file://$PROJECT_DIR$/config/userconfig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python34/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="737" column="8" selection-start-line="737" selection-start-column="8" selection-end-line="737" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/login_page2.py" />
+    <entry file="file://$PROJECT_DIR$/handle/login_handle2.py" />
+    <entry file="file://$PROJECT_DIR$/business/login_business2.py" />
+    <entry file="file://$PROJECT_DIR$/handle/login_handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/testReport_deviceNum-0-2018-11-20 20_29_39.html" />
+    <entry file="file://C:/Python34/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="953" column="8" selection-start-line="953" selection-start-column="8" selection-end-line="953" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Case/qy_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Case/qy_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="31" lean-forward="true" selection-start-line="11" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/multiprocessing/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1575">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Case/ParametrizedTestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/read_ini.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/get_by_local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/business/login_business.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="252">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/LocalElement.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$0/SearchSelenium.java" />
+    <entry file="file://$PROJECT_DIR$/utils/get_suite_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Case/nameqyt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Case/test_case2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Case/runtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="87" column="40" lean-forward="true" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Case/test_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="e#160#175#0" expanded="true" />
-            <marker date="1542251021333" expanded="true" signature="836:845" ph="..." />
-            <marker date="1542251021333" expanded="true" signature="886:895" ph="..." />
-            <marker date="1542251021333" expanded="true" signature="1286:1295" ph="..." />
-            <marker date="1542251021333" expanded="true" signature="1333:1341" ph="..." />
-            <marker date="1542251021333" expanded="true" signature="2330:2477" ph="..." />
-            <marker date="1542251021333" expanded="true" signature="2389:2477" ph="..." />
-          </folding>
+        <state relative-caret-position="-1188">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/write_user_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/dos_cmd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

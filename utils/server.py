@@ -61,6 +61,11 @@ class Server(object):
         # for i in range(len(device_list)):
         command = "appium -p " + str(appium_post_list[i]) + " -bp " + str(bootstrap_post_list[i]) + " -U " + str(
             device_list[i]) + " --no-reset --session-override"
+
+        # 带日志
+        # command = "appium -p " + str(appium_post_list[i]) + " -bp " + str(bootstrap_post_list[i]) + " -U " + str(
+        #     device_list[i]) + " --no-reset --session-override --log D:/test02.log"
+
         command_list.append(command)
         self.write_file.write_data(i, appium_post_list[i], bootstrap_post_list[i], device_list[i])
         return command_list
@@ -83,7 +88,7 @@ class Server(object):
             t.start()
 
         # 时间太短会导致已经开始运行测试套件，但是Appium未完全启动
-        time.sleep(20)
+        time.sleep(25)
 
     def kill_server(self):
         server_list = self.dos.execute_cmd_result("tasklist | findstr node.exe")
