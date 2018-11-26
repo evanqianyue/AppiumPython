@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a508d4f6-d54e-4cee-ac32-8fc5542075e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Case/ParametrizedTestCase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case/nameqyt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case/qy_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case/qy_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case/runtest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case/test_case2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case/备份test_case哦.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_all_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/get_suite_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/test_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case/test_case1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case/test_supper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/mysupper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case/test_threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/mythreading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/userconfig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/userconfig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handle/login_handle.py" beforeDir="false" afterPath="$PROJECT_DIR$/handle/login_handle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/testReport0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/testReport1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/dos_cmd.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/dos_cmd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/get_by_local.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/get_by_local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/read_ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/read_ini.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/write_user_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/write_user_command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case/nameqyt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/nameqyt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +31,7 @@
     <SUITE FILE_PATH="coverage/AppiumPython$write_user_command.coverage" NAME="write_user_command Coverage Results" MODIFIED="1542091298351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/AppiumPython$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1541997829166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
     <SUITE FILE_PATH="coverage/AppiumPython$port.coverage" NAME="port Coverage Results" MODIFIED="1542078715498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/AppiumPython$nameqyt.coverage" NAME="nameqyt Coverage Results" MODIFIED="1542722146735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
+    <SUITE FILE_PATH="coverage/AppiumPython$nameqyt.coverage" NAME="nameqyt Coverage Results" MODIFIED="1543225519461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
     <SUITE FILE_PATH="coverage/AppiumPython$base_driver.coverage" NAME="base_driver Coverage Results" MODIFIED="1542072609095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/AppiumPython$qy_2.coverage" NAME="qy_2 Coverage Results" MODIFIED="1542683598908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
     <SUITE FILE_PATH="coverage/AppiumPython$Unittests_for_test_case_CaseTest_test_01.coverage" NAME="Unittests for test_case.CaseTest.test_01 Coverage Results" MODIFIED="1541994008760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
@@ -73,10 +50,11 @@
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,7 +63,7 @@
           <entry key="ini" value="9" />
           <entry key="java" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="213" />
+          <entry key="py" value="214" />
           <entry key="txt" value="1" />
           <entry key="yaml" value="11" />
         </counts>
@@ -96,7 +74,7 @@
           <entry key="JAVA" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="213" />
+          <entry key="Python" value="214" />
           <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
@@ -105,7 +83,7 @@
           <entry key="dummy" value="57" />
           <entry key="html" value="1" />
           <entry key="ini" value="229" />
-          <entry key="py" value="15888" />
+          <entry key="py" value="16014" />
           <entry key="yaml" value="124" />
         </counts>
       </usages-collector>
@@ -113,7 +91,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="PLAIN_TEXT" value="286" />
-          <entry key="Python" value="15888" />
+          <entry key="Python" value="16014" />
           <entry key="YAML" value="124" />
         </counts>
       </usages-collector>
@@ -127,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Case/test_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1188">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="342">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -136,17 +114,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+            <state relative-caret-position="1638">
+              <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/dos_cmd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/dos_cmd.py">
+        <entry file="file://$PROJECT_DIR$/Case/nameqyt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="216">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -154,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/write_user_command.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+            <state relative-caret-position="360">
+              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -232,13 +219,13 @@
         <option value="$PROJECT_DIR$/Case/test_case1.py" />
         <option value="$PROJECT_DIR$/utils/get_by_local.py" />
         <option value="$PROJECT_DIR$/utils/server.py" />
-        <option value="$PROJECT_DIR$/Case/nameqyt.py" />
         <option value="$PROJECT_DIR$/Case/test_case.py" />
         <option value="$PROJECT_DIR$/config/LocalElement.ini" />
         <option value="$PROJECT_DIR$/utils/get_suite_list.py" />
         <option value="$PROJECT_DIR$/utils/write_user_command.py" />
         <option value="$PROJECT_DIR$/run_all_tests.py" />
         <option value="$PROJECT_DIR$/utils/dos_cmd.py" />
+        <option value="$PROJECT_DIR$/Case/nameqyt.py" />
       </list>
     </option>
   </component>
@@ -248,7 +235,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="111" />
     <option name="y" value="198" />
     <option name="width" value="1389" />
@@ -276,6 +263,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,14 +286,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542967085074" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543226042561" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -336,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dos_cmd">
+  <component name="RunManager" selected="Python.nameqyt">
     <configuration name="dos_cmd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AppiumPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -456,10 +443,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.nameqyt" />
         <item itemvalue="Python.dos_cmd" />
         <item itemvalue="Python.get_suite_list" />
         <item itemvalue="Python.run_all_tests" />
-        <item itemvalue="Python.nameqyt" />
         <item itemvalue="Python.read_ini" />
       </list>
     </recent_temporary>
@@ -487,6 +474,7 @@
       <workItem from="1542895206763" duration="613000" />
       <workItem from="1542937896077" duration="448000" />
       <workItem from="1542945139743" duration="1899000" />
+      <workItem from="1543225248958" duration="792000" />
     </task>
     <servers />
   </component>
@@ -523,12 +511,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155260000" />
+    <option name="totallyTimeSpent" value="156052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="777" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49620253" visible="true" weight="0.19159256" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49620253" visible="true" weight="0.13742927" />
       <window_info id="Structure" order="1" sideWeight="0.5037975" side_tool="true" weight="0.21341956" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -759,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Case/nameqyt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Case/test_case2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -796,29 +778,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Case/test_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1188">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/write_user_command.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        <state relative-caret-position="342">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        <state relative-caret-position="1638">
+          <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/write_user_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/dos_cmd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
+        <state relative-caret-position="198">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Case/nameqyt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
